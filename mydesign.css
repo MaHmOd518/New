@@ -1,7 +1,7 @@
 .form {
   text-align: center;
 }
-input[type="text"]{
+input[type="text"] {
   width: 900px;
   height: 100px;
   text-align: center;
@@ -10,7 +10,7 @@ input[type="text"]{
   box-shadow: 1px 1px 5px black;
   font-family: Book Antiqua;
 }
-#text{
+#text {
   position: relative;
   left: 50%;
   margin-left: -450px;
@@ -27,7 +27,7 @@ input[type="text"]{
   text-shadow: none;
   overflow: hidden;
 }
-.favcolor{
+.favcolor {
   width: 100px;
   height: 50px;
   padding: 10px 20px;
@@ -40,11 +40,11 @@ input[type="text"]{
   background: #06c;
   box-shadow: 1px 1px 5px black;
 }
-.favcolor:hover{
+.favcolor:hover {
   background: #17d;
   transition-duration: 0.5s;
 }
-.button{
+.button {
   width: 200px;
   height: 50px;
   position: relative;
@@ -54,7 +54,7 @@ input[type="text"]{
   background: #06c;
   box-shadow: 1px 1px 5px black;
 }
-.button button{
+.button button {
   border: none;
   background: none;
   color: white;
@@ -64,7 +64,7 @@ input[type="text"]{
   text-align: center;
   display: inline;
 }
-.button button:hover{
+.button button:hover {
   background: #17d;
   transition-duration: 0.5s;
 }

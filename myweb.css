@@ -1,17 +1,19 @@
-*{ box-sizing: border-box; }
-body{
+* {
+  box-sizing: border-box;
+}
+body {
   margin: 0px;
   cursor: default;
 }
-nav{
-position: fixed;
-width: 100%;
-height: 70px;
-background: #06c;
-box-shadow: 0 2px 8px black;
-z-index: 2;
+nav {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background: #06c;
+  box-shadow: 0 2px 8px black;
+  z-index: 2;
 }
-.title{
+.title {
   float: left;
   text-shadow: 1px 2px 6px black;
   margin: 15px 0;
@@ -20,16 +22,16 @@ z-index: 2;
   font-family: sans-serif;
   color: white;
 }
-.head{
+.head {
   padding-top: 70px;
   width: auto;
   height: 480px;
   background: url("bg.jpg") no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
   box-shadow: 0px 1px 7px black;
 }
-.text{
+.text {
   margin: 100px;
   margin-bottom: 50px;
   margin-left: 170px;
@@ -37,20 +39,20 @@ z-index: 2;
   font-size: 50px;
   text-shadow: 1px 1px 5px black;
 }
-.head p{
+.head p {
   margin-left: 200px;
   color: white;
   font-size: 25px;
   text-shadow: 1px 1px 5px black;
 }
-.m{
+.m {
   display: inline-block;
   cursor: pointer;
   float: right;
   margin: 15px 0;
   margin-right: 20px;
 }
-.menu{
+.menu {
   float: right;
   position: absolute;
   top: 0px;
@@ -63,7 +65,7 @@ z-index: 2;
   box-shadow: 0px 5px 5px black;
   transition: 0.5s;
 }
-.menu a{
+.menu a {
   color: white;
   text-shadow: 1px 1px 5px black;
   display: block;
@@ -71,12 +73,13 @@ z-index: 2;
   text-decoration: none;
   font-family: sans-serif;
 }
-.menu a:hover{
+.menu a:hover {
   background: #17d;
   transition-duration: 0.5s;
-
 }
-.m1, .m2, .m3{
+.m1,
+.m2,
+.m3 {
   width: 35px;
   height: 5px;
   background: white;
@@ -84,19 +87,19 @@ z-index: 2;
   transition: 0.4s;
   box-shadow: 1px 1px 9px black;
 }
-.change .m1{
-  transform: rotate(45deg) translate(8px,7px);
+.change .m1 {
+  transform: rotate(45deg) translate(8px, 7px);
 }
-.change .m2{
+.change .m2 {
   opacity: 0;
 }
-.change .m3{
-  transform: rotate(-45deg) translate(8px,-8px);
+.change .m3 {
+  transform: rotate(-45deg) translate(8px, -8px);
 }
 .move {
-  transform: translate(-220px,0px);
+  transform: translate(-220px, 0px);
 }
-.c{
+.c {
   display: inline;
   margin: 60px 0px;
   padding: 10px 50px;
