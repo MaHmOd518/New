@@ -19,7 +19,7 @@ but.onclick = function myclick() {
     text0 += form.elements[0].value;
     text.innerHTML = text0;
     color += form.elements[1].value;
-    if (color == "#ffffff") {
+    if (color >= "#d2d2d2") {
       text.style.color = color;
       text.style.background = "black";
     } else {
